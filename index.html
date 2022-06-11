@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+              font-size: 10px;
+              scroll-behavior: smooth;
+        }
+        img{
+            width:15rem;
+            background-color: rgba(0,0,0,0);
+            
+        }
+        
+        body{
+            background-image: url("adrian-infernus-GLf7bAwCdYg-unsplash.jpg");
+            background-repeat: no-repeat;
+            height: 10rem;
+           background-color: black;
+            background-size: 170rem;
+          font-family: sans-serif;
+        }
+        nav a{
+            text-decoration: none;
+            display: flex;
+            color: aliceblue;
+            text-shadow: .5rem .5rem .5rem solid rgb(173, 160, 160);
+            border: 0rem;
+            
+           
+        }
+        nav{
+            text-align: end;
+            box-sizing: border-box;
+            padding:0.5rem;
+            height: 8rem;
+            width: 100vw;
+            background-color:black;
+            margin: 0%;
+            border-radius: .6rem;
+            position: fixed;
+            font-family: sans-serif;
+            transform: translate(-1rem,-3.8rem);
+            box-shadow: 0.4rem 0.5rem 0.3rem rgba(0, 0, 0,0.7);
+           font-size: 1.7rem;
+           font-weight: 700;
+           display: flex;
+        }
+        nav a:hover{
+            color: rgb(5, 250, 250);
+                                            
+          
+                    
+        }
+        nav img{
+        
+            margin: 0%;
+            padding: 0%;
+            position: absolute;
+            left:4rem
+        }
+        section {
+            text-align: center;
+            margin: 3.3rem;
+            border: 1.5rem solid rgb(253, 252, 250);
+            border-radius: 8rem;
+
+            
+        }
+        section h3{
+            margin: 2rem;
+            color: rgb(10, 8, 8);
+            font-size: 3rem;
+        }
+        section h1{
+            color: rgb(240, 126, 240);
+            text-shadow: .6rem .5rem 1.6rem rgb(249, 5, 160);
+            font-size:4rem;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 9rem;
+            letter-spacing: .7rem;
+        }
+        section p{
+            color: antiquewhite;
+            font-size: 3rem;
+            text-shadow: .6rem .5rem .5rem black;
+        }
+        section img{
+            border: 1rem solid white;
+            border-radius: 500px;
+            margin: 3rem;
+            height: 27rem;
+            width: 20rem;
+            transform:translate(0px,0);
+        }
+        section .but1{
+            color: rgb(240, 245, 245);
+            padding: 1rem;
+            text-decoration: none;
+            font-weight: 700;
+            background-color: rgb(4, 210, 251);
+            border-radius: 4rem;
+            margin: 1rem;
+            box-shadow: 0.05rem 0.3rem 0.2rem rgba(0, 0, 0,0.7);
+            font-family: sans-serif;
+        }
+        section .but2{
+            padding: 1rem;
+            margin: 1rem;
+            text-decoration: none;
+            font-weight: 700;
+            color: black;
+            background: white;
+            border-radius: 4rem;
+            box-shadow: 0.05rem 0.3rem 0.2rem rgba(0, 0, 0,0.7);
+            font-family: sans-serif;
+        }
+        section div{
+            margin: 3rem;
+            text-decoration: none;
+
+        }
+        section .but1:hover{
+            color: rgb(3, 16, 16);
+            text-shadow: .5rem .5rem .5rem rgb(255, 1, 77);
+            background-color: bisque;
+        }
+        section .but2:hover{
+            color: rgb(252, 250, 251);
+            text-shadow:.5rem .5rem .5rem rgb(14, 10, 12);
+            background-color: aqua;
+        }
+        footer{
+            text-align: center;
+            font-family: sans-serif;
+            transform: translate(0,5rem);
+           
+        }
+
+        footer h3{
+           color: rgb(142, 137, 139);
+           transform: translate(-39rem,1.6rem);
+        } 
+        footer p{
+            transform: translate(-40rem,20rem);
+        }   
+        footer .social a img{
+            padding: 2rem;
+            
+           height:4rem;
+            width: 4rem;
+            transform: translate(0rem,-1rem);
+        }
+        footer .social a img:hover{
+                     height: 7rem;
+                     width: 7rem;
+                            }                          
+         
+        footer .social h4{
+            color:aqua;
+            transform: translate(0px,3rem);
+            font-size: 3rem;
+            letter-spacing: .2rem;
+            text-shadow: 0.07rem 0.17rem 0.2rem;
+        }
+        footer .social h4:hover{
+            text-decoration: underline;
+        }
+        footer h5{
+            color: rgb(234, 239, 238);
+            font-size: 2rem;
+            transform: translate(0px,-60px);
+            padding: 1.5rem;
+        }
+        footer p{
+            color: rgb(249, 251, 252);
+            transform: translate(0rem,-1rem);
+            font-family:'Times New Roman', Times, serif;
+            animation-name: thanks;
+            animation-duration: 1.7s;
+            animation-iteration-count: infinite;
+            padding: 1rem;
+            
+            
+        }
+        @keyframes thanks{
+            0%{color: azure;
+            font-size: .2rem;}
+            10%{color: rgb(218, 248, 248);
+                font-size: .4rem;}
+            20%{color: rgb(202, 251, 254);
+                font-size: .7rem; 
+                font-weight: 1rem;}
+            35%{color: rgb(190, 247, 252);
+                font-size: .9rem;
+                font-weight: 1.4rem;}  
+            50%{color: rgb(163, 230, 254);
+                font-size: 1.2rem;
+                font-weight: 1.9rem;}
+            60%{color: rgb(147, 237, 253);
+                font-size: 1.4rem;
+                font-weight: 2.2rem;}
+            70%{color: rgb(108, 223, 251);
+                font-size: 1.7rem;
+                font-weight: 3.5rem;  }
+            85%{color: rgb(49, 231, 251);
+                font-size: 2rem;
+                font-weight: 3.8rem;}
+            100%{color: rgb(2, 243, 247);
+                font-size: 2.3rem;
+                font-weight: 4rem; }
+        }
+        footer h6{
+            color: aliceblue;
+            transform: translate(0,-5rem);
+            font-size: 2rem;
+        }
+        .navbar{
+            position: absolute;
+            right: 1rem;
+            top:2.9rem;
+        }
+        @media(max-width : 50rem){
+           .navbar ul{
+              
+               position:relative;
+               top: 3rem;
+               display: block;
+              
+               width: 100%;
+               background-size: 150%;
+               padding: .08rem ;
+               font-size: 1.3rem;
+              
+           }
+          
+           
+           .navbar{
+            box-shadow: 0.2rem 0.3rem 0.9rem solid black;
+            display: block;
+           }
+           nav img{
+               height: 4rem;
+               width: 9rem;
+           }
+           nav a:hover{
+               color: aquamarine;
+                ;
+           }
+           
+        }
+        .navbar ul{
+            display: flex;
+           transform: translate(-2rem, -5rem);
+        }
+        .navbar ul li{
+            padding: 2rem;
+            list-style: none;
+        }
+       
+    </style>
+</head>
+<body>
+            
+  <nav>
+    <img src="onlinelogomaker-042522-0838-8755.png">
+   
+    <div class="navbar">
+     <ul>  
+       
+   <li> <a href="#home">Home</a></li>
+   <li>  <a href="/about.html">About</a></li>
+   <li>  <a href="/edu.html">Education</a>
+    <li>   <a href="/gal.html">Gallery</a></li>
+    <li>   <a href="#contact">Contact</a></li>
+</ul>
+</div>
+  </nav> 
+  <section>
+      <p>Hi!  This is </p>
+      
+      <div id="home"><h1> SHASWATA KANGSA BANIK</h1></div>
+     <h3>I am a First Year Student of the Department of Agriculture and Food Engineering, IIT Kharagpur,enrolled in its B.Tech course.I am a boarder of Pt. Madan Mohan Malaviya Hall of Residence</h3>
+     
+  </h1>
+  <img src="Screenshot_20220425_110746.png">
+  <div>
+      <a href="experience.html" class="but1">MY EXPERIENCE</a>
+      <a href="/achievement.html" class="but2"> ACHIEVEMENTS</a>
+      </div>
+    </section>
+  </body>
+<footer>
+   
+    <div id="contact" class="footer">
+        <div class="social">
+            <h4>CONTACTS</h4>
+            
+            <a href="https://www.linkedin.com/in/shaswata-banik-290689232"><img src="linkedin.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100075143894756"><img src="facebook.png"></a>
+            
+            <h5>
+                contact no.: 7635801624
+                <br>
+                email id: skbskb8663@gmail.com
+            </h5>
+            <h6>@ 2022: Shaswata Kangsa Banik</h6>
+            <p>Thanks For Visiting</p>
+          
+        </div>
+            </div>
+           
+</footer>
